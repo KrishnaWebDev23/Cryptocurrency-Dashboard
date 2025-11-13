@@ -34,7 +34,7 @@ const CryptoDashboard = () => {
   return (
     <div>
       <h1 className='text-center my-5 text-3xl'>Currencey Dashboard</h1>
-      <div className='flex w-full mt-8 justify-center items-center gap-5'>
+      <div className='flex w-full mt-8 justify-center gap-2 items-center'>
         <SearchBar data={cryptos} setFilteredList={setFilteredList} setSearchText={setSearchText} SearchText={SearchText} Dropdown={Dropdown} />
         <SortDropdown Dropdown={Dropdown} setDropDown={setDropDown} />
       </div>

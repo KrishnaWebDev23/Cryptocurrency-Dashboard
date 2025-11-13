@@ -27,10 +27,10 @@ const SearchBar = ({ data, setFilteredList, setSearchText, SearchText, Dropdown 
     }, [data, SearchText, setFilteredList, Dropdown])
 
     return (
-        <div>
+        <div className='w-full max-w-md'>
             <input
                 type="text"
-                className='border p-2 w-100 rounded-lg'
+                className='w-full border mx-2 p-2 border-gray-300 rounded-lg text-gray-700 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500'
                 value={SearchText}
                 placeholder='Enter the currency name'
                 onChange={(e) => setSearchText(e.target.value)}
