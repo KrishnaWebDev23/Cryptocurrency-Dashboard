@@ -41,7 +41,7 @@ const CryptoCard = ({ data }) => {
                                         className={`font-medium ${e.price_change_percentage_24h > 0 ? 'text-green-500' : 'text-red-500'
                                             }`}
                                     >
-                                        {( e.price_change_percentage_24h ?? 0 ).toFixed(2)}%
+                                        {/* {( e.price_change_percentage_24h ?? 0 ).toFixed(2)}% */}
                                     </p>
                                 </div>
                             </div>
